@@ -25,6 +25,10 @@ class Neighborhood{
         return d.neighborhoodId === this.id
       }.bind(this))
   }
+  
+  upperEast(){
+    
+  }
 
 }
 
