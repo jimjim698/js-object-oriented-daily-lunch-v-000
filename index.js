@@ -72,8 +72,8 @@ class Meal{
   }
   
   static byPrice(){
-    return store.meals.slice(0).sort()
-}
+    return store.meals.slice(0).sort().reverse()
+ }
 }
 
 class Delivery{
