@@ -58,6 +58,12 @@ class Meal{
   this.id = ++mealId
   store.meals.push(this)
   }
+  
+  deliveries(){
+    return store.deliveries.filter(function(d){
+      return d.mealId === this.id
+    }.bind(this))
+  }
 }
 
 class Delivery{
