@@ -29,7 +29,7 @@ class Neighborhood{
   allMeals(){
    return this.deliveries().map(function(d){
       return d.meal()
-    })
+    }.bind(this))
   }
   
   meals(){
