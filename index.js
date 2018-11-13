@@ -11,6 +11,13 @@ class Neighborhood{
     this.id = ++neighborhoodId
     store.neighborhoods.push(this)
   }
+  
+  deliveries(){
+    store.deliveries.filter(
+      function(d){
+        d.neighborhoodId = this.id
+      }.bind(this))
+  }
 
 }
 
