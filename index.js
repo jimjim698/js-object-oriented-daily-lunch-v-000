@@ -70,6 +70,13 @@ class Delivery{
       }.bind(this))
   }
   
+  neighborhood(){
+    return store.neighborhoods.find(
+      function(n){
+        return n.id === this.neighborhoodId
+      }.bind(this))
+  }
+  
 }
 
 
