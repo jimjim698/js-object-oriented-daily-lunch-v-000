@@ -45,14 +45,7 @@ class Neighborhood{
    return meals
   }
   
-   totalSpent(){
-    let total = 0
-    for(let m of this.meals()){
-      total += m.price 
-      
-    }
-    return total 
-  }
+
 
 }
 
