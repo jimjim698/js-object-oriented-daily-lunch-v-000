@@ -64,6 +64,12 @@ class Meal{
       return d.mealId === this.id
     }.bind(this))
   }
+  
+  customers(){
+    return deliveries().map( function(d){
+      return d.customer()
+    }.bind(this))
+  }
 }
 
 class Delivery{
