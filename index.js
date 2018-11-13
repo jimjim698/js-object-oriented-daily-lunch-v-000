@@ -72,7 +72,7 @@ class Meal{
   }
   
   static byPrice(){
-    return store.meals.slice(0).sort(a,b){ a - b}
+    return store.meals.slice(0).sort(a,b)=> { a - b}
  }
 }
 
