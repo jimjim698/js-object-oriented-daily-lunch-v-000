@@ -35,7 +35,7 @@ class Neighborhood{
   meals(){
     let meals = []
     debugger
-   for(let m of this.allMeals()){ return
+   for(let m of this.allMeals()){
      if(!meals.includes(m)){
        
       return  meals.push(m)
@@ -43,6 +43,15 @@ class Neighborhood{
    }
    
    return meals
+  }
+  
+   totalSpent(){
+    let total = 0
+    for(let m of this.meals()){
+      total += m.price 
+      
+    }
+    return total 
   }
 
 }
