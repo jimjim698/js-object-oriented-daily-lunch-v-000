@@ -70,6 +70,10 @@ class Meal{
       return d.customer()
     }.bind(this))
   }
+  
+  byPrice(d){
+    
+  }
 }
 
 class Delivery{
