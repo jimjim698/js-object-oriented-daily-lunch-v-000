@@ -74,7 +74,7 @@ class Delivery{
     return store.neighborhoods.find(
       function(n){
         return n.id === this.neighborhoodId
-      }.bind(this))
+      }.bind(thi))
   }
   
 }
