@@ -43,6 +43,12 @@ class Customer{
       }.bind(this))
   }
   
+  meals(){
+    this.deliveries().map(function(d){
+      d.
+    })
+  }
+  
 }
 
 class Meal{
