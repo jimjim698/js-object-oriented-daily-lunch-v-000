@@ -38,7 +38,7 @@ class Neighborhood{
      if(!meals.includes(m)){
        
       return  meals.push(m)
-     }
+     }.bind(this)
    }
    
    return meals
