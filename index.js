@@ -36,6 +36,10 @@ class Customer{
     store.customers.push(this)
   }
   
+  deliveries(){
+    store.deliveries.map
+  }
+  
 }
 
 class Meal{
