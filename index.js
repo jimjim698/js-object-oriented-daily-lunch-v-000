@@ -49,6 +49,11 @@ class Customer{
     }.bind(this))
   }
   
+  totalSpent(){
+    let total = 0
+    this.meals()
+  }
+  
 }
 
 class Meal{
