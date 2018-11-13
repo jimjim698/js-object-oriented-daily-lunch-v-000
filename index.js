@@ -45,7 +45,7 @@ class Customer{
   
   meals(){
     return this.deliveries().map(function(d){
-      return d.meal
+      return d.meal()
     }.bind(this))
   }
   
