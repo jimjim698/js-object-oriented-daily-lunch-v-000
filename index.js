@@ -71,7 +71,7 @@ class Meal{
     }.bind(this))
   }
   
-  byPrice(d){
+  static byPrice(d){
     
   }
 }
