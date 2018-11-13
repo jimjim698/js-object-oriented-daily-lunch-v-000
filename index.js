@@ -22,7 +22,10 @@ class Meal{
 }
 
 class Delivery{
-  constructor(){
+  constructor(customer, meal, neighborhood){
+    customerId = customer.id
+    mealId = meal.id 
+    neighborhoodId = neighborhood.id
     store.deliveries.push(this)
   }
   
