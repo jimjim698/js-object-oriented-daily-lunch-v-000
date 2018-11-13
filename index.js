@@ -26,10 +26,16 @@ class Neighborhood{
       }.bind(this))
   }
   
+  allMeals(){
+   return this.deliveries().map(function(d){
+      return d.meal
+    })
+  }
+  
   meals(){
     let meals = []
     
-   for(let m of this.deliveries()){ return
+   for(let m of this.allMeals()){ return
      if(!meals.includes(m)){
        
       return  meals.push(m)
