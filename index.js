@@ -56,6 +56,12 @@ class Delivery{
     store.deliveries.push(this)
   }
   
+  meal(){
+    store.meals.find(
+      function(m){
+        m.id === this.mealId
+      }.bind(this))
+  }
   
 }
 
