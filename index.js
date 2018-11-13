@@ -26,7 +26,7 @@ class Neighborhood{
       }.bind(this))
   }
   
-  upperEast(){
+  upperEast.meals(){
     let meals = []
    for(let d of this.deliveries()){
      if(!meals.include(m)){
