@@ -34,7 +34,7 @@ class Meal{
 }
 
 class Delivery{
-  constructor(customer, meal, neighborhood){
+  constructor(meal, neighborhood){
     customerId = customer.id
     mealId = meal.id 
     neighborhoodId = neighborhood.id
