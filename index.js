@@ -71,11 +71,8 @@ class Meal{
     }.bind(this))
   }
   
-  static byPrice(d){
-    return store.meals.find(function(m){
-      return m.price === d 
-    }.bind(this))
-  }
+  static byPrice(){
+    return store.meals.slice(0).sort
 }
 
 class Delivery{
