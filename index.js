@@ -57,9 +57,9 @@ class Delivery{
   }
   
   meal(){
-    store.meals.find(
+    return store.meals.find(
       function(m){
-        m.id === this.mealId
+        return m.id === this.mealId
       }.bind(this))
   }
   
