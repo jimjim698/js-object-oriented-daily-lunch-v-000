@@ -27,7 +27,13 @@ class Neighborhood{
   }
   
   upperEast(){
-    
+    let meals = []
+   for(let d of this.deliveries()){
+     if(!meals.include(m)){
+       meals.push(m)
+     }
+   }
+   return meals
   }
 
 }
