@@ -15,9 +15,9 @@ class Neighborhood{
 }
 
 class Customer{
-  constructor(name, neighborhood){
+  constructor(name, neighborhoodId){
     this.name = name 
-    this.neighborhoodId = neighborhood
+    this.neighborhoodId = neighborhoodId
     this.id = ++customerId 
     store.customers.push(this)
   }
