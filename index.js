@@ -28,8 +28,7 @@ class Neighborhood{
   
   meals(){
     let meals = []
-    debugger
-    self 
+    
    for(let d of this.deliveries()){ return
      if(!meals.include(m)){
        
