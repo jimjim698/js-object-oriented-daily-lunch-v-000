@@ -51,7 +51,9 @@ class Customer{
   
   totalSpent(){
     let total = 0
-    this.meals()
+    for(m of this.meals()){
+      
+    }
   }
   
 }
