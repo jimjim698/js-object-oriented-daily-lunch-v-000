@@ -30,7 +30,7 @@ class Neighborhood{
     let meals = []
     
    for(let d of this.deliveries()){ return
-     if(!meals.include(m)){
+     if(!meals.includes(m)){
        
       return  meals.push(m)
      }
