@@ -37,7 +37,7 @@ class Customer{
   }
   
   deliveries(){
-    store.deliveries.filter
+    store.deliveries.filter()
   }
   
 }
