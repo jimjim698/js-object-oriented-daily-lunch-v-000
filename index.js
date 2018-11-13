@@ -7,6 +7,7 @@ class Neighborhood{
   constructor(name){
     this.name = name 
     this.id = ++neighborhoodId
+    store.neighborhoods.push(this)
   }
 
 }
@@ -16,11 +17,14 @@ class Meal{
   this.title = title
   this.price = price
   this.id = ++mealID
+  store.meals.push(this)
   }
 }
 
 class Delivery{
-  constructor()
+  constructor(){
+    store.deliveries.push(this)
+  }
   
   
 }
