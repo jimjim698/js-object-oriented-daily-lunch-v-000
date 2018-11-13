@@ -72,7 +72,9 @@ class Meal{
   }
   
   static byPrice(d){
-    
+    store.meals.find(function(m){
+      m.price === d 
+    })
   }
 }
 
