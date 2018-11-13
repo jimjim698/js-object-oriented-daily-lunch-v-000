@@ -12,6 +12,14 @@ class Neighborhood{
 
 }
 
+class Customer{
+  constructor(name, neighborhood){
+    this.name = name 
+    this.neighborhoodId = neighborhood.id
+  }
+  
+}
+
 class Meal{
   constructor(title, price){
   this.title = title
