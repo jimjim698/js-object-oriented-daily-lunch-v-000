@@ -38,7 +38,7 @@ class Neighborhood{
    for(let m of this.allMeals()){
      if(!meals.includes(m)){
        
-      return  meals.push(m)
+       meals.push(m)
      }
    }
    
